@@ -6,18 +6,18 @@ workers_dev = true
 
 routes = [
   { pattern = "frelance.biz.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.frelance.biz.id", custom_domain = true },
-  { pattern = "df.game.naver.com.frelance.biz.id", custom_domain = true },
-  { pattern = "graph.instagram.com.frelance.biz.id", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.frelance.biz.id", custom_domain = true },
-  { pattern = "support.zoom.us.frelance.biz.id", custom_domain = true },  
-  { pattern = "cache.netflix.com.frelance.biz.id", custom_domain = true },
-  { pattern = "investor.fb.com.frelance.biz.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.zxblues.biz.id", custom_domain = true },
+  { pattern = "df.game.naver.com.zxblues.biz.id", custom_domain = true },
+  { pattern = "graph.instagram.com.zxblues.biz.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.zxblues.biz.id", custom_domain = true },
+  { pattern = "support.zoom.us.zxblues.biz.id", custom_domain = true },  
+  { pattern = "cache.netflix.com.zxblues.biz.id", custom_domain = true },
+  { pattern = "investor.fb.com.zxblues.biz.id", custom_domain = true },
 ]
 
 [[kv_namespaces]]
 binding = "SIREN"
-id = "b7301c5b1e394d12bd9d34ab131d7757"
+id = "184c91ecb0184305a93b72d130fa6760"
 [build]
 command = "cargo install -q worker-build && worker-build --release"
 
@@ -26,6 +26,6 @@ build = { command = "cargo install -q worker-build && worker-build --dev" }
 
 [vars]
 UUID = "bbbbbbbb-cccc-4ddd-eeee-ffffffffffff"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/mbokone/inconigto-vpn/refs/heads/master/web/index.html"
-SUB_PAGE_URL = "https://raw.githubusercontent.com/mbokone/inconigto-vpn/refs/heads/master/web/sub.html"
-LINK_PAGE_URL = "https://raw.githubusercontent.com/mbokone/inconigto-vpn/refs/heads/master/web/link.html"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/cfnovan-afk/inconigto-vpn/refs/heads/master/web/index.html"
+SUB_PAGE_URL = "https://raw.githubusercontent.com/cfnovan-afk/inconigto-vpn/refs/heads/master/web/sub.html"
+LINK_PAGE_URL = "https://raw.githubusercontent.com/cfnovan-afk/inconigto-vpn/refs/heads/master/web/link.html"
